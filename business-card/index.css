@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
+}
+
+.personal-blog{
+    display: flex;
+    flex-direction: column;
+    width:314px;
+    height: 690px;
+    background-color: rgb(58, 63, 61);
+}
+.image img{
+    display: flex;
+    padding-top: 8px;
+    padding-left: 8px;
+    width: 295px;
+    height: 295px;
+}
+
+.user-details{
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    align-items: center;
+}
+
+.user-details p{
+    font-size: 13px;
+}
+
+.email{
+   padding-left: 69px;
+}
+.email button{
+    padding: 6px 70px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(241, 233, 233);
+    background-color: rgb(18, 17, 17);
+   
+}
+
+.about{
+    padding-top: 21px;
+    width:295px ;
+    padding-left: 17px;
+}
+.about p{
+  align-items: center;
+   font-size: 13px;
+   padding-top: 10px;
+}
+
+.interest {
+    padding-top: 21px;
+    width:295px ;
+    padding-left: 17px;
+}
+
+.interest p{
+    align-items: center;
+     font-size: 13px;
+     padding-top: 10px;
+}
+
+footer{
+    padding-top: 17px;
+    padding-left: 77px;
+    
+   
+}
+
+footer i {
+    padding-left: 15px;
+    
+}
